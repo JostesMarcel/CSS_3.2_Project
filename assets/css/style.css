@@ -1,0 +1,133 @@
+/* farbe (background/border): #eee, #ccc 
+farbe text: #659d89, #333, #666, #000 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #eee;
+    font-size: 1.5em;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+}
+
+header nav:nth-child(1) {
+    padding: 2vh 0 0 10vh;
+}
+
+header nav:nth-child(1) a {
+    text-decoration: none;
+    padding: 0 1vh;
+    color: #659d89;
+}
+
+header div {
+    margin: 20vh 0 0 11vh;
+}
+
+header h1 {
+    text-align: left;
+    color: #659d89;
+}
+
+header h2 {
+    width: 33vh;
+}
+
+header nav:nth-of-type(2) {
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: 10vh;
+    width: 3%;
+}
+
+header p {
+    margin: 5vh 0 17vh 12vh;
+}
+
+header p::before {
+    content: "\2193      ";
+}
+
+/* header end */
+
+main section:nth-of-type(1) {
+    border-bottom: 1px solid #ccc;
+}
+
+h3, h4 {
+    margin: 0% 0% 4% 0%;
+    margin-top: 4%;
+    margin-left: 13vh;
+}
+
+section:nth-of-type(1) article {
+    width: 70%;
+    margin: 0 auto 8% auto;
+}
+
+section:nth-of-type(1) article img {
+    padding: 2%;
+}
+
+/* section 1 ende */
+
+section:nth-of-type(2) {
+    border-bottom: 1px solid #ccc;
+}
+
+section:nth-of-type(2) h5 {
+    margin: 4% 0 7% 9%;
+}
+
+section:nth-of-type(2) article img {
+    width: 50vh;
+}
+
+section:nth-of-type(2) article:nth-of-type(even) {
+    text-align: right;
+    margin: 10% 10% 10% 50%;
+}
+
+section:nth-of-type(2) article:nth-of-type(odd) {
+    text-align: left;
+    margin: 10% 50% 10% 10%;
+}
+
+section:nth-of-type(2) article p {
+    text-align: center;
+}
+
+section:nth-of-type(2) article p:nth-of-type(odd) {
+    font-size: 0.7em;
+}
+
+section:nth-of-type(2) article a {
+    padding: 53% 0 0% 0;
+}
+
+section:nth-of-type(2) article a:hover {
+    box-shadow: 0 0 5px 5px #659d89;
+}
+
+/* section 2 ende */
+
+footer h6 {
+    text-align: center;
+}
+
+footer h6::before {
+    content: "\2191       ";
+}
+
+footer p {
+    text-align: center;
+    font-size: small;
+} 
+
+/* footer ende */
